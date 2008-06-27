@@ -44,13 +44,9 @@ end
 
 Setup
 =====
-Install the plugin:
+Install the plugin (rails 2.1+):
 
-./script/plugin install http://rails-oceania.googlecode.com/svn/lachiecox/hornsby
-
-Or piston:
-
-piston import http://rails-oceania.googlecode.com/svn/lachiecox/hornsby vendor/plugins/hornsby
+./script/plugin install git://github.com/lachie/hornsby.git
 
 Add the following to spec_helper.rb
 
